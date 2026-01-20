@@ -34,7 +34,7 @@ main {
 .site-header {
   background: #edeaea;
   box-shadow: 0 2px 6px rgba(29, 28, 28, 0.1);
-  position: sticky;
+  position:sticky;
   top: 0;
   z-index: 1000;
 }
@@ -208,7 +208,7 @@ button:hover {
 /* ---------- FOOTER ---------- */
 .site-footer {
   background: #171616;
-  color: rgb(47, 38, 38);
+  color: rgb(228, 222, 222);
   text-align: center;
   padding: 15px;
 }
