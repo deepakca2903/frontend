@@ -244,6 +244,8 @@ function openSubject(i) {
 function addToCart(title, price) {
   cartItems.push({ title, price });
   totalCost += price;
+  let gst=totalCost*0.10;
+  totalCost=totalCost-gst;
   console.log(`Added: ${title} (₹${price})`);
 }
 
